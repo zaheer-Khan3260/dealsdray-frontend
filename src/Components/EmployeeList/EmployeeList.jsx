@@ -168,7 +168,7 @@ function EmployeeList() {
                                             <a href={`mailto:${employee.email}`} className="text-blue-600 underline">{employee.email}</a>
                                         </td>
                                         <td className="border p-2">{employee.mobileno}</td>
-                                        <td className="border p-2">{employee.designaton}</td>
+                                        <td className="border p-2">{employee.designation}</td>
                                         <td className="border p-2">{employee.gender}</td>
                                         <td className="border p-2">{employee.course}</td>
                                         <td className="border p-2">{new Date(employee.createdAt).toLocaleDateString()}</td>
